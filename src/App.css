@@ -23,13 +23,17 @@
 }
 .contact-body{
   margin: auto;
-  background: grey;
   position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
   padding-top: 2em;
 }
+.contact-list i {
+  font-size: 50px;
+  padding-right: 5rem;
+}
+
 
 .contact-grid {
   text-align: center;
@@ -38,11 +42,43 @@
   height: 100%;
   background: white;
   color: black;
-  border: 2px solid red;
   margin-bottom: 20px;
 
 
 }
+
+.contact-grid h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  margin: auto;
+  width: 75%;
+  padding-top: 1em;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted rgb(10, 10, 10);
+  width: 50%;
+  margin: auto;
+
+}
+
+.resume-right-col {
+  background: #004FF9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
+  color: whitesmoke;
+
+}
+
+
 
 .profile-pic{
   border-radius:50%;

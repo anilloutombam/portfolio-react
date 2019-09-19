@@ -20,7 +20,7 @@ class Resume extends Component {
 
                     </Cell>
                     <Cell col={4} className="resume-right-col">
-                        lll
+                        Here i am
                     </Cell>
                 </Grid>
             </div>

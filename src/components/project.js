@@ -91,15 +91,12 @@ class Project extends Component {
                     <Tab>MySQL</Tab>
 
                 </Tabs>
-                <section className="project-grid">
                     <Grid>
                         <Cell col= {12}>
                             <div className="content">{this.toggleCategories()}</div>
                         </Cell>
 
                     </Grid>
-
-                </section>
             </div>
          );
     }

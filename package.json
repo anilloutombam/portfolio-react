@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://anilloutombam.github.io/portfolio-react",
   "dependencies": {
+    "eslint-utils": "^1.4.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-mdl": "^1.11.0",
@@ -17,7 +18,6 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
-
   },
   "eslintConfig": {
     "extends": "react-app"
